@@ -19,6 +19,7 @@
 
 body {
     padding: 85px 32px;
+    background-color: var(--very-light-gray);
 }
 
 /*Header element styling*/
@@ -129,18 +130,23 @@ main section div img {
     }
 
     header {
-        margin-bottom: 61px;    
-        max-width: 540px;    
+        margin-bottom: 61px;   
     }
 
     header h1 {
         gap: 0px;
         font-size: 36px;
         letter-spacing: 0.25px;
+        font-weight: 400;
+    }
+
+    header h1 > span:first-child {
+        margin-bottom: -3px;
     }
     
     header p {
-        line-height: 25px;
+        line-height: 25px; 
+        max-width: 540px;    
     }
 
     main {
